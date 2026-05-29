@@ -1,17 +1,6 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mamma Mia Ristorante</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
-  <link rel="stylesheet" href="mamma-mia.css">
-</head>
-<body>
-
 <!-- ==================== HEADER ==================== -->
 <header id="site-header">
   <div class="header-inner">
@@ -47,7 +36,7 @@
   <section class="hero">
     <div class="hero-bg"></div>
     <div class="hero-content">
-      <p class="hero-eyebrow">Napoli Â· Est. 1978</p>
+      <p class="hero-eyebrow">Napoli · Est. 1978</p>
       <h1>Dove ogni piatto<br>racconta una storia</h1>
       <p class="hero-translation">Where every dish tells a story</p>
       <p class="hero-subtitle">Authentic Italian cuisine crafted from four generations of tradition,<br>passion, and the finest ingredients from the heart of Italy.</p>
@@ -56,7 +45,7 @@
         <button class="btn btn-red" onclick="showPage('order')">Order Now</button>
       </div>
     </div>
-    <div class="scroll-indicator" onclick="document.getElementById('home-gallery').scrollIntoView({behavior:'smooth'})">â†“</div>
+    <div class="scroll-indicator" onclick="document.getElementById('home-gallery').scrollIntoView({behavior:'smooth'})">↓</div>
   </section>
 
   <!-- Gallery -->
@@ -82,10 +71,10 @@
           </div>
         </div>
         <div class="dish-card" onclick="showPage('menu')">
-          <img src="https://picsum.photos/seed/tiramisu/600/400" alt="TiramisÃ¹ della Casa" />
+          <img src="https://picsum.photos/seed/tiramisu/600/400" alt="Tiramisù della Casa" />
           <div class="dish-card-body">
-            <h3>TiramisÃ¹ della Casa</h3>
-            <p>House-made tiramisÃ¹ with espresso-soaked savoiardi and mascarpone</p>
+            <h3>Tiramisù della Casa</h3>
+            <p>House-made tiramisù with espresso-soaked savoiardi and mascarpone</p>
             <span class="dish-price">Rp 75.000</span>
           </div>
         </div>
@@ -126,7 +115,7 @@
           <hr class="gold-rule" />
           <p>Mamma Mia Ristorante was born in the heart of Naples in 1978, when Nonna Lucia Ferrante first opened her kitchen doors to the neighborhood.</p>
           <p>Armed with recipes passed down through four generations and an unshakeable belief that food is love made edible, she created a place where strangers became family.</p>
-          <p>Today, her grandchildren carry that same spirit â€” handcrafting every pasta, simmering every sauce, and welcoming every guest as one of their own.</p>
+          <p>Today, her grandchildren carry that same spirit — handcrafting every pasta, simmering every sauce, and welcoming every guest as one of their own.</p>
           <button class="btn btn-green" onclick="showPage('about')">Read Our Full Story</button>
         </div>
         <img src="https://picsum.photos/seed/italian-kitchen/800/600" alt="Mamma Mia kitchen" />
@@ -154,15 +143,15 @@
       </div>
       <div class="footer-col">
         <h4>Visit Us</h4>
-        <p><span>ðŸ“</span>Via Ferrante 12, Jakarta Selatan</p>
-        <p><span>ðŸ“ž</span>+62 21 555 0178</p>
-        <p><span>âœ‰ï¸</span>ciao@mammamia.co.id</p>
-        <p><span>ðŸ•</span>Monâ€“Sun: 11:00 â€“ 22:00</p>
+        <p><span>📍</span>Via Ferrante 12, Jakarta Selatan</p>
+        <p><span>📞</span>+62 21 555 0178</p>
+        <p><span>✉️</span>ciao@mammamia.co.id</p>
+        <p><span>🕐</span>Mon–Sun: 11:00 – 22:00</p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>Â© 2025 Mamma Mia Ristorante. All rights reserved.</span>
-      <span>Images: <a href="https://picsum.photos" target="_blank">Picsum Photos</a> Â· Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></span>
+      <span>© 2025 Mamma Mia Ristorante. All rights reserved.</span>
+      <span>Images: <a href="https://picsum.photos" target="_blank">Picsum Photos</a> · Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></span>
     </div>
   </footer>
 </div>
@@ -177,10 +166,10 @@
   <section class="section" style="background:var(--white);">
     <div class="container">
       <div class="menu-tabs" id="menu-tabs">
-        <button class="menu-tab active" onclick="switchMenuTab('antipasti')">ðŸ¥— Antipasti</button>
-        <button class="menu-tab" onclick="switchMenuTab('primi')">ðŸ Primi Piatti</button>
-        <button class="menu-tab" onclick="switchMenuTab('secondi')">ðŸ• Secondi & Pizza</button>
-        <button class="menu-tab" onclick="switchMenuTab('dolci')">ðŸ® Dolci</button>
+        <button class="menu-tab active" onclick="switchMenuTab('antipasti')">🥗 Antipasti</button>
+        <button class="menu-tab" onclick="switchMenuTab('primi')">🍝 Primi Piatti</button>
+        <button class="menu-tab" onclick="switchMenuTab('secondi')">🍕 Secondi & Pizza</button>
+        <button class="menu-tab" onclick="switchMenuTab('dolci')">🍮 Dolci</button>
       </div>
 
       <!-- Antipasti -->
@@ -193,7 +182,7 @@
             <div class="menu-card-body">
               <div class="menu-card-header">
                 <h3>Bruschetta al Pomodoro</h3>
-                <span class="menu-badge">Most Popular â¤ï¸</span>
+                <span class="menu-badge">Most Popular ❤️</span>
               </div>
               <p class="menu-desc">Toasted sourdough with fresh Roma tomatoes, basil, and extra virgin olive oil. A Neapolitan classic.</p>
               <span class="menu-price">Rp 55.000</span>
@@ -204,9 +193,9 @@
             <div class="menu-card-body">
               <div class="menu-card-header">
                 <h3>Arancini di Riso</h3>
-                <span class="menu-badge">Chef's Special ðŸŒ¿</span>
+                <span class="menu-badge">Chef's Special 🌿</span>
               </div>
-              <p class="menu-desc">Crispy golden rice balls filled with mozzarella and ragÃ¹, served with marinara dip. Golden and irresistible.</p>
+              <p class="menu-desc">Crispy golden rice balls filled with mozzarella and ragù, served with marinara dip. Golden and irresistible.</p>
               <span class="menu-price">Rp 75.000</span>
             </div>
           </div>
@@ -226,14 +215,14 @@
       <!-- Primi Piatti -->
       <div class="menu-category" id="cat-primi">
         <h2 class="menu-category-title">Primi Piatti</h2>
-        <p class="menu-category-sub">Handcrafted pasta and creamy risotto â€” the soul of Italian cooking</p>
+        <p class="menu-category-sub">Handcrafted pasta and creamy risotto — the soul of Italian cooking</p>
         <div class="menu-grid">
           <div class="menu-card">
             <img src="https://picsum.photos/seed/carbonara2/600/400" alt="Spaghetti Carbonara" />
             <div class="menu-card-body">
               <div class="menu-card-header">
                 <h3>Spaghetti Carbonara</h3>
-                <span class="menu-badge">Most Popular â¤ï¸</span>
+                <span class="menu-badge">Most Popular ❤️</span>
               </div>
               <p class="menu-desc">Classic Roman carbonara with guanciale, egg yolk, Pecorino Romano, and freshly cracked black pepper.</p>
               <span class="menu-price">Rp 120.000</span>
@@ -254,17 +243,17 @@
             <div class="menu-card-body">
               <div class="menu-card-header">
                 <h3>Risotto ai Funghi Porcini</h3>
-                <span class="menu-badge">Chef's Special ðŸŒ¿</span>
+                <span class="menu-badge">Chef's Special 🌿</span>
               </div>
               <p class="menu-desc">Creamy Arborio rice with wild porcini mushrooms, Parmigiano Reggiano, and a drizzle of truffle oil.</p>
               <span class="menu-price">Rp 135.000</span>
             </div>
           </div>
           <div class="menu-card">
-            <img src="https://picsum.photos/seed/tagliatelle/600/400" alt="Tagliatelle al RagÃ¹" />
+            <img src="https://picsum.photos/seed/tagliatelle/600/400" alt="Tagliatelle al Ragù" />
             <div class="menu-card-body">
               <div class="menu-card-header">
-                <h3>Tagliatelle al RagÃ¹</h3>
+                <h3>Tagliatelle al Ragù</h3>
               </div>
               <p class="menu-desc">Hand-rolled tagliatelle with a slow-braised Bolognese of beef and pork, simmered for six hours.</p>
               <span class="menu-price">Rp 125.000</span>
@@ -283,7 +272,7 @@
             <div class="menu-card-body">
               <div class="menu-card-header">
                 <h3>Pizza Margherita Napoletana</h3>
-                <span class="menu-badge">Most Popular â¤ï¸</span>
+                <span class="menu-badge">Most Popular ❤️</span>
               </div>
               <p class="menu-desc">San Marzano tomato, fior di latte mozzarella, fresh basil, wood-fired crust. The original and the best.</p>
               <span class="menu-price">Rp 105.000</span>
@@ -294,7 +283,7 @@
             <div class="menu-card-body">
               <div class="menu-card-header">
                 <h3>Pizza Diavola</h3>
-                <span class="menu-badge">Chef's Special ðŸŒ¿</span>
+                <span class="menu-badge">Chef's Special 🌿</span>
               </div>
               <p class="menu-desc">Spicy salami, chili, mozzarella, tomato sauce, finished with fresh rocket. For the bold at heart.</p>
               <span class="menu-price">Rp 125.000</span>
@@ -315,7 +304,7 @@
             <div class="menu-card-body">
               <div class="menu-card-header">
                 <h3>Branzino al Limone</h3>
-                <span class="menu-badge">Chef's Special ðŸŒ¿</span>
+                <span class="menu-badge">Chef's Special 🌿</span>
               </div>
               <p class="menu-desc">Pan-seared sea bass with lemon butter, capers, and roasted cherry tomatoes. Delicate and refined.</p>
               <span class="menu-price">Rp 175.000</span>
@@ -330,13 +319,13 @@
         <p class="menu-category-sub">End your meal on a sweet note, Italian style</p>
         <div class="menu-grid">
           <div class="menu-card">
-            <img src="https://picsum.photos/seed/tiramisu2/600/400" alt="TiramisÃ¹ della Casa" />
+            <img src="https://picsum.photos/seed/tiramisu2/600/400" alt="Tiramisù della Casa" />
             <div class="menu-card-body">
               <div class="menu-card-header">
-                <h3>TiramisÃ¹ della Casa</h3>
-                <span class="menu-badge">Most Popular â¤ï¸</span>
+                <h3>Tiramisù della Casa</h3>
+                <span class="menu-badge">Most Popular ❤️</span>
               </div>
-              <p class="menu-desc">House-made tiramisÃ¹ with espresso-soaked savoiardi, silky mascarpone cream, and dusted cocoa.</p>
+              <p class="menu-desc">House-made tiramisù with espresso-soaked savoiardi, silky mascarpone cream, and dusted cocoa.</p>
               <span class="menu-price">Rp 75.000</span>
             </div>
           </div>
@@ -381,15 +370,15 @@
       </div>
       <div class="footer-col">
         <h4>Visit Us</h4>
-        <p><span>ðŸ“</span>Via Ferrante 12, Jakarta Selatan</p>
-        <p><span>ðŸ“ž</span>+62 21 555 0178</p>
-        <p><span>âœ‰ï¸</span>ciao@mammamia.co.id</p>
-        <p><span>ðŸ•</span>Monâ€“Sun: 11:00 â€“ 22:00</p>
+        <p><span>📍</span>Via Ferrante 12, Jakarta Selatan</p>
+        <p><span>📞</span>+62 21 555 0178</p>
+        <p><span>✉️</span>ciao@mammamia.co.id</p>
+        <p><span>🕐</span>Mon–Sun: 11:00 – 22:00</p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>Â© 2025 Mamma Mia Ristorante. All rights reserved.</span>
-      <span>Images: <a href="https://picsum.photos" target="_blank">Picsum Photos</a> Â· Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></span>
+      <span>© 2025 Mamma Mia Ristorante. All rights reserved.</span>
+      <span>Images: <a href="https://picsum.photos" target="_blank">Picsum Photos</a> · Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></span>
     </div>
   </footer>
 </div>
@@ -404,7 +393,7 @@
   <div class="rewards-intro">
     <div class="container" style="text-align:center;">
       <h2 style="margin-bottom:16px;">Because Loyalty Deserves to be Rewarded</h2>
-      <p>At Mamma Mia, our most loyal guests are our family. Join our rewards program and unlock exclusive perks, discounts, and unforgettable experiences â€” because every visit brings you closer to something special.</p>
+      <p>At Mamma Mia, our most loyal guests are our family. Join our rewards program and unlock exclusive perks, discounts, and unforgettable experiences — because every visit brings you closer to something special.</p>
     </div>
   </div>
 
@@ -414,34 +403,34 @@
       <p class="section-subtitle">Earn your way to Italian excellence</p>
       <div class="rewards-grid">
         <div class="reward-card bronze">
-          <div class="reward-icon">ðŸŽ</div>
+          <div class="reward-icon">🎁</div>
           <span class="reward-tier">Bronze</span>
           <h3>Benvenuto</h3>
-          <p>Welcome to the family! Enjoy a complimentary bruschetta al pomodoro on your very first visit to Mamma Mia. Our gift to you â€” because every story begins with a hello.</p>
+          <p>Welcome to the family! Enjoy a complimentary bruschetta al pomodoro on your very first visit to Mamma Mia. Our gift to you — because every story begins with a hello.</p>
         </div>
         <div class="reward-card silver">
-          <div class="reward-icon">â­</div>
+          <div class="reward-icon">⭐</div>
           <span class="reward-tier">Silver</span>
           <h3>Amico</h3>
-          <p>You keep coming back, and we love you for it. Receive a 10% discount on your 5th order as a token of our friendship. You're no longer just a guest â€” you're a friend of the house.</p>
+          <p>You keep coming back, and we love you for it. Receive a 10% discount on your 5th order as a token of our friendship. You're no longer just a guest — you're a friend of the house.</p>
         </div>
         <div class="reward-card gold">
-          <div class="reward-icon">ðŸ°</div>
+          <div class="reward-icon">🍰</div>
           <span class="reward-tier">Gold</span>
           <h3>Fedele</h3>
-          <p>True loyalty deserves a sweet reward. On every 10th visit, your dessert is on us â€” choose any dolci from our menu. From tiramisÃ¹ to panna cotta, the choice is yours.</p>
+          <p>True loyalty deserves a sweet reward. On every 10th visit, your dessert is on us — choose any dolci from our menu. From tiramisù to panna cotta, the choice is yours.</p>
         </div>
         <div class="reward-card platinum">
-          <div class="reward-icon">ðŸ·</div>
+          <div class="reward-icon">🍷</div>
           <span class="reward-tier">Platinum</span>
           <h3>VIP Italiano</h3>
-          <p>As a VIP member, you receive monthly invitations to our exclusive tasting menus â€” curated by our head chef, featuring seasonal Italian delicacies not available to the public.</p>
+          <p>As a VIP member, you receive monthly invitations to our exclusive tasting menus — curated by our head chef, featuring seasonal Italian delicacies not available to the public.</p>
         </div>
         <div class="reward-card vip">
-          <div class="reward-icon">ðŸ‘¨â€ðŸ‘©â€ðŸ‘§â€ðŸ‘¦</div>
+          <div class="reward-icon">👨‍👩‍👧‍👦</div>
           <span class="reward-tier">Family</span>
           <h3>Grande Famiglia</h3>
-          <p>Celebrating with loved ones? Groups of 8 or more receive a special 20% family discount across the entire table. Bring the whole famiglia â€” we have room for all of you.</p>
+          <p>Celebrating with loved ones? Groups of 8 or more receive a special 20% family discount across the entire table. Bring the whole famiglia — we have room for all of you.</p>
         </div>
       </div>
     </div>
@@ -450,7 +439,7 @@
   <div class="rewards-join">
     <div class="container" style="text-align:center;">
       <h2>Start Your Journey Today</h2>
-      <p>Place your first order and automatically join the Mamma Mia family. No sign-up forms, no fees â€” just great food and even greater rewards.</p>
+      <p>Place your first order and automatically join the Mamma Mia family. No sign-up forms, no fees — just great food and even greater rewards.</p>
       <button class="btn btn-gold" onclick="showPage('order')">Place Your First Order</button>
     </div>
   </div>
@@ -474,15 +463,15 @@
       </div>
       <div class="footer-col">
         <h4>Visit Us</h4>
-        <p><span>ðŸ“</span>Via Ferrante 12, Jakarta Selatan</p>
-        <p><span>ðŸ“ž</span>+62 21 555 0178</p>
-        <p><span>âœ‰ï¸</span>ciao@mammamia.co.id</p>
-        <p><span>ðŸ•</span>Monâ€“Sun: 11:00 â€“ 22:00</p>
+        <p><span>📍</span>Via Ferrante 12, Jakarta Selatan</p>
+        <p><span>📞</span>+62 21 555 0178</p>
+        <p><span>✉️</span>ciao@mammamia.co.id</p>
+        <p><span>🕐</span>Mon–Sun: 11:00 – 22:00</p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>Â© 2025 Mamma Mia Ristorante. All rights reserved.</span>
-      <span>Images: <a href="https://picsum.photos" target="_blank">Picsum Photos</a> Â· Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></span>
+      <span>© 2025 Mamma Mia Ristorante. All rights reserved.</span>
+      <span>Images: <a href="https://picsum.photos" target="_blank">Picsum Photos</a> · Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></span>
     </div>
   </footer>
 </div>
@@ -497,14 +486,14 @@
   <section class="section about-story">
     <div class="container">
       <div class="two-col">
-        <img src="https://picsum.photos/seed/naples-italy/800/700" alt="Naples, Italy â€” birthplace of Mamma Mia" />
+        <img src="https://picsum.photos/seed/naples-italy/800/700" alt="Naples, Italy — birthplace of Mamma Mia" />
         <div class="two-col-text">
           <h2>Born in the Heart of Naples</h2>
           <hr class="gold-rule" style="margin:16px 0;" />
-          <p>Mamma Mia Ristorante was founded in Naples, Italy in 1978 by Nonna Lucia Ferrante â€” a woman who believed, above all else, that food is the language of love. Her small trattoria on Via Ferrante quickly became the neighborhood's living room, a place where the smell of simmering ragÃ¹ drifted through open windows and laughter never stopped.</p>
-          <p>In 1994, her son Marco carried the family's recipes and spirit to a new home in Jakarta, Indonesia â€” bringing the warmth of a Neapolitan kitchen to a city hungry for something real. The transition was not easy, but the food spoke for itself. Within a year, regulars were coming nightly, and the waiting list stretched to weeks.</p>
-          <p>Today, Lucia's grandchildren â€” Sofia and Luca â€” run the restaurant with the same fierce devotion. Every pasta is hand-rolled the way their grandmother taught them. Every sauce is simmered low and slow. Every guest is welcomed like family, because at Mamma Mia, that is exactly what they are.</p>
-          <p>Over forty years of stories, flavors, and faces â€” and we are only just getting started.</p>
+          <p>Mamma Mia Ristorante was founded in Naples, Italy in 1978 by Nonna Lucia Ferrante — a woman who believed, above all else, that food is the language of love. Her small trattoria on Via Ferrante quickly became the neighborhood's living room, a place where the smell of simmering ragù drifted through open windows and laughter never stopped.</p>
+          <p>In 1994, her son Marco carried the family's recipes and spirit to a new home in Jakarta, Indonesia — bringing the warmth of a Neapolitan kitchen to a city hungry for something real. The transition was not easy, but the food spoke for itself. Within a year, regulars were coming nightly, and the waiting list stretched to weeks.</p>
+          <p>Today, Lucia's grandchildren — Sofia and Luca — run the restaurant with the same fierce devotion. Every pasta is hand-rolled the way their grandmother taught them. Every sauce is simmered low and slow. Every guest is welcomed like family, because at Mamma Mia, that is exactly what they are.</p>
+          <p>Over forty years of stories, flavors, and faces — and we are only just getting started.</p>
         </div>
       </div>
     </div>
@@ -517,17 +506,17 @@
       <p class="section-subtitle" style="text-align:center;">Three pillars. One soul.</p>
       <div class="philosophy-grid">
         <div class="philosophy-card">
-          <div class="philosophy-icon">ðŸŒ¿</div>
+          <div class="philosophy-icon">🌿</div>
           <h3>Fresh Ingredients</h3>
-          <p>Every ingredient is chosen with intention â€” sourced locally from trusted farmers and imported directly from Italy for those that cannot be replicated. We never compromise on quality.</p>
+          <p>Every ingredient is chosen with intention — sourced locally from trusted farmers and imported directly from Italy for those that cannot be replicated. We never compromise on quality.</p>
         </div>
         <div class="philosophy-card">
-          <div class="philosophy-icon">ðŸ‘¨â€ðŸ³</div>
+          <div class="philosophy-icon">👨‍🍳</div>
           <h3>Traditional Recipes</h3>
-          <p>Our recipes have remained unchanged for over a hundred years. No shortcuts, no modern tricks â€” just the same handwritten notes from Nonna Lucia's kitchen notebook, followed faithfully to this day.</p>
+          <p>Our recipes have remained unchanged for over a hundred years. No shortcuts, no modern tricks — just the same handwritten notes from Nonna Lucia's kitchen notebook, followed faithfully to this day.</p>
         </div>
         <div class="philosophy-card">
-          <div class="philosophy-icon">â¤ï¸</div>
+          <div class="philosophy-icon">❤️</div>
           <h3>Family Spirit</h3>
           <p>Every guest who walks through our door is treated like a member of the Ferrante family. We believe a great meal is only truly great when it is shared with warmth, generosity, and love.</p>
         </div>
@@ -550,14 +539,14 @@
         <div class="founder-card">
           <img src="https://picsum.photos/seed/marco-ferrante/300/300" alt="Marco Ferrante" />
           <h3>Marco Ferrante</h3>
-          <p class="founder-role">Second Generation Â· Executive Chef</p>
+          <p class="founder-role">Second Generation · Executive Chef</p>
           <p>Lucia's son, who brought the family tradition to Indonesia in 1994. Marco spent twelve years refining his craft in Rome and Florence before returning to carry his mother's legacy abroad.</p>
         </div>
         <div class="founder-card">
           <img src="https://picsum.photos/seed/sofia-ferrante/300/300" alt="Sofia & Luca Ferrante" />
           <h3>Sofia & Luca Ferrante</h3>
-          <p class="founder-role">Third Generation Â· Co-Directors</p>
-          <p>Lucia's grandchildren now helm the restaurant with the same passion and precision. Sofia leads the kitchen, Luca manages the floor â€” together, they ensure every guest leaves feeling like family.</p>
+          <p class="founder-role">Third Generation · Co-Directors</p>
+          <p>Lucia's grandchildren now helm the restaurant with the same passion and precision. Sofia leads the kitchen, Luca manages the floor — together, they ensure every guest leaves feeling like family.</p>
         </div>
       </div>
     </div>
@@ -596,15 +585,15 @@
       </div>
       <div class="footer-col">
         <h4>Visit Us</h4>
-        <p><span>ðŸ“</span>Via Ferrante 12, Jakarta Selatan</p>
-        <p><span>ðŸ“ž</span>+62 21 555 0178</p>
-        <p><span>âœ‰ï¸</span>ciao@mammamia.co.id</p>
-        <p><span>ðŸ•</span>Monâ€“Sun: 11:00 â€“ 22:00</p>
+        <p><span>📍</span>Via Ferrante 12, Jakarta Selatan</p>
+        <p><span>📞</span>+62 21 555 0178</p>
+        <p><span>✉️</span>ciao@mammamia.co.id</p>
+        <p><span>🕐</span>Mon–Sun: 11:00 – 22:00</p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>Â© 2025 Mamma Mia Ristorante. All rights reserved.</span>
-      <span>Images: <a href="https://picsum.photos" target="_blank">Picsum Photos</a> Â· Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></span>
+      <span>© 2025 Mamma Mia Ristorante. All rights reserved.</span>
+      <span>Images: <a href="https://picsum.photos" target="_blank">Picsum Photos</a> · Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></span>
     </div>
   </footer>
 </div>
@@ -620,7 +609,7 @@
     <div class="container">
       <div class="order-form-wrap">
         <div class="success-msg" id="success-msg">
-          <h3>ðŸ‡®ðŸ‡¹ Grazie!</h3>
+          <h3>🇮🇹 Grazie!</h3>
           <p>Your order has been received. We'll contact you shortly to confirm your order details.</p>
         </div>
 
@@ -654,14 +643,14 @@
               <label>Pin Your Location on the Map <span class="req">*</span></label>
               <p style="font-size:0.85rem;color:var(--text-light);margin-bottom:8px;">Search for your area, then click on the map to drop a pin at your exact location.</p>
               <div class="map-search-wrap">
-                <input type="text" id="map-search-input" class="form-control" placeholder="Search city or area (e.g. Menteng, Jakarta)â€¦" />
-                <button type="button" id="map-search-btn" title="Search">ðŸ”</button>
+                <input type="text" id="map-search-input" class="form-control" placeholder="Search city or area (e.g. Menteng, Jakarta)…" />
+                <button type="button" id="map-search-btn" title="Search">🔍</button>
               </div>
               <div id="delivery-map"></div>
-              <div class="map-hint">ðŸ’¡ Click anywhere on the map to place your delivery pin. Drag the pin to adjust.</div>
+              <div class="map-hint">💡 Click anywhere on the map to place your delivery pin. Drag the pin to adjust.</div>
               <div class="map-coords-display" id="map-coords-display">
-                ðŸ“ Pinned: <strong id="coords-lat"></strong>, <strong id="coords-lng"></strong>
-                &nbsp;Â·&nbsp; <span id="coords-address" style="color:var(--text-light);"></span>
+                📍 Pinned: <strong id="coords-lat"></strong>, <strong id="coords-lng"></strong>
+                &nbsp;·&nbsp; <span id="coords-address" style="color:var(--text-light);"></span>
               </div>
               <span class="error-msg" id="err-pin">Please pin your location on the map.</span>
             </div>
@@ -679,7 +668,7 @@
           <div class="form-group">
             <label for="cust-phone">Phone Number <span class="req">*</span></label>
             <input type="tel" id="cust-phone" class="form-control" placeholder="e.g. 08123456789" />
-            <span class="error-msg" id="err-phone">Please enter a valid phone number (10â€“13 digits).</span>
+            <span class="error-msg" id="err-phone">Please enter a valid phone number (10–13 digits).</span>
           </div>
 
           <hr class="form-divider" />
@@ -690,26 +679,26 @@
             <label for="menu-select">Choose a Dish <span class="req">*</span></label>
             <select id="menu-select" class="form-control">
               <option value="">-- Select a dish --</option>
-              <optgroup label="ðŸ¥— Antipasti">
-                <option value="bruschetta">Bruschetta al Pomodoro â€” Rp 55.000</option>
-                <option value="arancini">Arancini di Riso â€” Rp 75.000</option>
-                <option value="caprese">Caprese Classico â€” Rp 85.000</option>
+              <optgroup label="🥗 Antipasti">
+                <option value="bruschetta">Bruschetta al Pomodoro — Rp 55.000</option>
+                <option value="arancini">Arancini di Riso — Rp 75.000</option>
+                <option value="caprese">Caprese Classico — Rp 85.000</option>
               </optgroup>
-              <optgroup label="ðŸ Primi Piatti">
-                <option value="carbonara">Spaghetti Carbonara â€” Rp 120.000</option>
-                <option value="amatriciana">Rigatoni all'Amatriciana â€” Rp 115.000</option>
-                <option value="risotto">Risotto ai Funghi Porcini â€” Rp 135.000</option>
-                <option value="tagliatelle">Tagliatelle al RagÃ¹ â€” Rp 125.000</option>
+              <optgroup label="🍝 Primi Piatti">
+                <option value="carbonara">Spaghetti Carbonara — Rp 120.000</option>
+                <option value="amatriciana">Rigatoni all'Amatriciana — Rp 115.000</option>
+                <option value="risotto">Risotto ai Funghi Porcini — Rp 135.000</option>
+                <option value="tagliatelle">Tagliatelle al Ragù — Rp 125.000</option>
               </optgroup>
-              <optgroup label="ðŸ• Secondi & Pizza">
-                <option value="margherita">Pizza Margherita Napoletana â€” Rp 105.000</option>
-                <option value="diavola">Pizza Diavola â€” Rp 125.000</option>
-                <option value="pollo">Pollo alla Parmigiana â€” Rp 140.000</option>
-                <option value="branzino">Branzino al Limone â€” Rp 175.000</option>
+              <optgroup label="🍕 Secondi & Pizza">
+                <option value="margherita">Pizza Margherita Napoletana — Rp 105.000</option>
+                <option value="diavola">Pizza Diavola — Rp 125.000</option>
+                <option value="pollo">Pollo alla Parmigiana — Rp 140.000</option>
+                <option value="branzino">Branzino al Limone — Rp 175.000</option>
               </optgroup>
-              <optgroup label="ðŸ® Dolci">
-                <option value="tiramisu">TiramisÃ¹ della Casa â€” Rp 75.000</option>
-                <option value="pannacotta">Panna Cotta ai Frutti di Bosco â€” Rp 65.000</option>
+              <optgroup label="🍮 Dolci">
+                <option value="tiramisu">Tiramisù della Casa — Rp 75.000</option>
+                <option value="pannacotta">Panna Cotta ai Frutti di Bosco — Rp 65.000</option>
               </optgroup>
             </select>
             <span class="error-msg" id="err-menu">Please select a dish.</span>
@@ -758,7 +747,7 @@
             <textarea id="notes" class="form-control" rows="4" placeholder="Allergy information, special instructions, delivery notes..."></textarea>
           </div>
 
-          <button type="submit" class="btn btn-green submit-btn">ðŸ‡®ðŸ‡¹ &nbsp;Place My Order</button>
+          <button type="submit" class="btn btn-green submit-btn">🇮🇹 &nbsp;Place My Order</button>
         </form>
       </div>
     </div>
@@ -783,15 +772,15 @@
       </div>
       <div class="footer-col">
         <h4>Visit Us</h4>
-        <p><span>ðŸ“</span>Via Ferrante 12, Jakarta Selatan</p>
-        <p><span>ðŸ“ž</span>+62 21 555 0178</p>
-        <p><span>âœ‰ï¸</span>ciao@mammamia.co.id</p>
-        <p><span>ðŸ•</span>Monâ€“Sun: 11:00 â€“ 22:00</p>
+        <p><span>📍</span>Via Ferrante 12, Jakarta Selatan</p>
+        <p><span>📞</span>+62 21 555 0178</p>
+        <p><span>✉️</span>ciao@mammamia.co.id</p>
+        <p><span>🕐</span>Mon–Sun: 11:00 – 22:00</p>
       </div>
     </div>
     <div class="footer-bottom">
-      <span>Â© 2025 Mamma Mia Ristorante. All rights reserved.</span>
-      <span>Images: <a href="https://picsum.photos" target="_blank">Picsum Photos</a> Â· Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></span>
+      <span>© 2025 Mamma Mia Ristorante. All rights reserved.</span>
+      <span>Images: <a href="https://picsum.photos" target="_blank">Picsum Photos</a> · Fonts: <a href="https://fonts.google.com" target="_blank">Google Fonts</a></span>
     </div>
   </footer>
 </div>
